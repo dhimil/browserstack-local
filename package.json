@@ -1,0 +1,16 @@
+{
+  "name": "browserstack-local-commandline",
+  "version": "0.0.1",
+  "description": "Cross-platform BrowserStack Local Testing using Command-Line",
+  "author": "browserstacktunnel <browserstacktunnel@browserstack.com>",
+  "dependencies": {
+    "xhr2": "0.0.7",
+    "faye-websocket" : "0.7.2",
+    "eventsource" : "0.0.10",
+    "simple-mime" : "0.0.8",
+    "tunnel" : "0.0.3"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
