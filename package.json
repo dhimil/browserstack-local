@@ -2,7 +2,12 @@
   "name": "browserstack-local-commandline",
   "version": "0.0.1",
   "description": "Cross-platform BrowserStack Local Testing using Command-Line",
-  "author": "browserstacktunnel <browserstacktunnel@browserstack.com>",
+  "author": "Dhimil Gosalia <dhimil@browserstack.com>",
+  "homepage": "https://github.com/dhimil/browserstack-local",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dhimil/browserstack-local"
+  },
   "dependencies": {
     "xhr2": "0.0.7",
     "faye-websocket" : "0.7.2",
@@ -12,5 +17,8 @@
   },
   "engines": {
     "node": ">=0.8"
+  },
+  "bin": {
+    "browserstack-local": "bin/cli.js"
   }
 }

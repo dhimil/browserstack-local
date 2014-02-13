@@ -16,7 +16,7 @@ Wrapper for new command line tunnel for BrowserStack
 ```js
 var options = {
     key: process.env.BROWSERSTACK_KEY,
-           localConfig: process.env.BROWSERSTACK_CONFIG
+    localConfig: process.env.BROWSERSTACK_CONFIG
 };
 
 var tunnel = require(__dirname + '/bin/cli.js').BrowserstackLocal(options);
