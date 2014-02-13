@@ -3,7 +3,7 @@ var options = {
   localConfig: process.env.BROWSERSTACK_CONFIG
 };
 
-var tunnel = require(__dirname + '/bin/cli.js').BrowserstackLocal(options);
+var tunnel = require(__dirname + '/index.js').BrowserstackLocal(options);
 
 tunnel.startTunnel();
 
